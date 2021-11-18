@@ -39,12 +39,12 @@
 		607FACE51AFB9204008FA782 /* YoCommon_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoCommon_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E6C276E44EDACDA1FA50D50 /* YoCommon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YoCommon.podspec; path = ../YoCommon.podspec; sourceTree = "<group>"; };
-		8D9634D0766C2DCEF528BFDF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6E6C276E44EDACDA1FA50D50 /* YoCommon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YoCommon.podspec; path = ../YoCommon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D9634D0766C2DCEF528BFDF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB967572775FCC4D27363D8C /* Pods_YoCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C404052F175E0200EEC912 /* Pods-YoCommon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoCommon_Example.release.xcconfig"; path = "Target Support Files/Pods-YoCommon_Example/Pods-YoCommon_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EF609B188509491ED06B91A7 /* Pods-YoCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoCommon_Tests.release.xcconfig"; path = "Target Support Files/Pods-YoCommon_Tests/Pods-YoCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2590C4EB247470E71EDE0A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F2590C4EB247470E71EDE0A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA6FE4BF395F8CE6567A8C3A /* Pods-YoCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoCommon_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YoCommon_Tests/Pods-YoCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE3D0DA7C7CE85A5305D28BF /* Pods-YoCommon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoCommon_Example.debug.xcconfig"; path = "Target Support Files/Pods-YoCommon_Example/Pods-YoCommon_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +86,6 @@
 				FA6FE4BF395F8CE6567A8C3A /* Pods-YoCommon_Tests.debug.xcconfig */,
 				EF609B188509491ED06B91A7 /* Pods-YoCommon_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

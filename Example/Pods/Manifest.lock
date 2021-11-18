@@ -1,0 +1,16 @@
+PODS:
+  - YoCommon (0.1.0)
+
+DEPENDENCIES:
+  - YoCommon (from `../`)
+
+EXTERNAL SOURCES:
+  YoCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YoCommon: 9229becf4e24ce323b6b8e590461e1850915339d
+
+PODFILE CHECKSUM: 892f7d1b692b5591056cc776d3746eb3329e6dc6
+
+COCOAPODS: 1.11.2
