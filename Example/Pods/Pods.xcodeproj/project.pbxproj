@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		087E1E5C92D405689B477540CBF9B47D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		11D365440D9E4AD08AACB1C7F99D21FB /* Pods-YoCommon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E382B74B864B4117F95F5556FAB3EC9E /* Pods-YoCommon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AB575263AED9AEC86BE480268C45280 /* YoCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE592D320451FE94EDE25CFE976BC95 /* YoCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D272DDE02E8CE25D812C9F4A58282A /* YoConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB37DB48B798FE00DF0FEF4999C195E /* YoConfigure.swift */; };
 		36786478B0C27A1F3CCB58D6C7928BFF /* Pods-YoCommon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD509B392BAFC56D0F293BCA46503068 /* Pods-YoCommon_Tests-dummy.m */; };
+		3B69087F3D110060B1A997EF0B94FA4F /* YoDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D6786B1255B217A599C3D278C817CD /* YoDefine.swift */; };
 		46FD4EEE3CA8CC723DF9A32D1F7089D0 /* Pods-YoCommon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4509AFA066694633DD5850DF14574C3E /* Pods-YoCommon_Example-dummy.m */; };
-		87CAFEA9C3A9A1DABA18A97500AC281E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		709A768DF2B1AC7C591C5ABC5187736C /* YoCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08281E2B9FBBAB30DA7CAD22C0078B39 /* YoCommon-dummy.m */; };
+		8DD6CDE0597BD5E418638E670C4205C1 /* YoCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 813B5CC948FAA182A170BC2645EC4942 /* YoCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D6315BF462042732EE96E1D2C8F68D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B2AC967E2616AFDB7A5C226CFC905445 /* Pods-YoCommon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9861BBB25584C33AEF0BE1EA4BFA85C1 /* Pods-YoCommon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D39F0961F362EAA133DED675C1BA52EA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007759F37BFAE737E386A57DCA54F010 /* ReplaceMe.swift */; };
-		E2591B608A6D1A551243CDFAF30F8DCF /* YoCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E771D20990186EA5F429DEFEDA74627 /* YoCommon-dummy.m */; };
 		E7C2459217D81F5AC5A334365C070379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7D4777B8FED179A750507D9797926751 /* PBXContainerItemProxy */ = {
+		0C9E0D6A83E80F2585687714BEC0E4B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C94B5A4717E6AF5D5422FD958EFD18D3;
 			remoteInfo = YoCommon;
 		};
-		AE4EFBA5B3935C21639C2EFC90ED98EE /* PBXContainerItemProxy */ = {
+		F76CFEEA0A37913B586EB1D8C43C5302 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,38 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007759F37BFAE737E386A57DCA54F010 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YoCommon/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		08281E2B9FBBAB30DA7CAD22C0078B39 /* YoCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YoCommon-dummy.m"; sourceTree = "<group>"; };
 		105DE4788950C424B97604B3460F751F /* Pods-YoCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YoCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		23B1954ACE811F3255878C6349EC7A25 /* YoCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YoCommon.release.xcconfig; sourceTree = "<group>"; };
+		247347BC7B72BF19B63B3D7FDA2687E3 /* YoCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YoCommon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25D6786B1255B217A599C3D278C817CD /* YoDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoDefine.swift; path = YoCommon/Classes/Define/YoDefine.swift; sourceTree = "<group>"; };
+		37C95926001E9A4199C8F006AECC0067 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3F7907370084FC6BCCEA869AAD23EAE1 /* YoCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YoCommon.modulemap; sourceTree = "<group>"; };
 		3FDE5B06E24B267FA00BD1DE19C3F9C6 /* Pods-YoCommon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YoCommon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		40586F89788AD0B353D66D5B48EDC421 /* Pods-YoCommon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YoCommon_Example.modulemap"; sourceTree = "<group>"; };
 		437E105BF6BFBFF4A1BE148ED8203E12 /* Pods-YoCommon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YoCommon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4509AFA066694633DD5850DF14574C3E /* Pods-YoCommon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YoCommon_Example-dummy.m"; sourceTree = "<group>"; };
 		4923A2712988FAF85EAE8167E8F8DA87 /* Pods-YoCommon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YoCommon_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5CE592D320451FE94EDE25CFE976BC95 /* YoCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoCommon-umbrella.h"; sourceTree = "<group>"; };
+		5BB7C60E4F6B6DC2BBF41B92C933A418 /* YoCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YoCommon.debug.xcconfig; sourceTree = "<group>"; };
 		65801FC82E4AD27F32AE78F420D2902A /* YoCommon */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YoCommon; path = YoCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4C2AA94121F883D149472148C18268 /* YoCommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YoCommon-Info.plist"; sourceTree = "<group>"; };
+		7095E42EFEC721FEE1744DAF7B1207C9 /* YoCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoCommon-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7D1CE3633582E1B9BF01F3B151D9CF13 /* YoCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoCommon-prefix.pch"; sourceTree = "<group>"; };
 		7E6F6BB7CED5BA80480BF612F64E759E /* Pods-YoCommon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YoCommon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E771D20990186EA5F429DEFEDA74627 /* YoCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YoCommon-dummy.m"; sourceTree = "<group>"; };
+		7FB37DB48B798FE00DF0FEF4999C195E /* YoConfigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoConfigure.swift; path = YoCommon/Classes/Configure/YoConfigure.swift; sourceTree = "<group>"; };
+		813B5CC948FAA182A170BC2645EC4942 /* YoCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoCommon-umbrella.h"; sourceTree = "<group>"; };
 		8E0222D08F396C774363734E049FFF10 /* Pods-YoCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YoCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8E0F33549D8BA0AADA1E47B0EB9F64C0 /* YoCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YoCommon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		945D0295755DF76EFE665F1FDE2870FA /* Pods-YoCommon_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YoCommon_Example-Info.plist"; sourceTree = "<group>"; };
 		9861BBB25584C33AEF0BE1EA4BFA85C1 /* Pods-YoCommon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YoCommon_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9ADEA82ED282E627E358B2E9043E03FA /* YoCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YoCommon.debug.xcconfig; sourceTree = "<group>"; };
+		9A14AD535DB59AB1F5C3CF455EE549D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A47BD62543AF617B33D3B96BACC30614 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A911AE4455B3FB07B75384E0CEB12E2D /* Pods-YoCommon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YoCommon_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B084981AE89613A5E2EA2A9C01AEFF87 /* Pods-YoCommon_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YoCommon_Tests"; path = Pods_YoCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBD006491D3193A60B011188496319E4 /* YoCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YoCommon.modulemap; sourceTree = "<group>"; };
 		BF0C275ED29CBDFFB3C8E60490ED9CB1 /* Pods-YoCommon_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YoCommon_Example"; path = Pods_YoCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6446544951EF64225E36F649D41B31B /* Pods-YoCommon_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YoCommon_Tests-Info.plist"; sourceTree = "<group>"; };
+		D7BF8B674A238AD9F4881A6D10A4FE06 /* YoCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YoCommon.release.xcconfig; sourceTree = "<group>"; };
 		DD509B392BAFC56D0F293BCA46503068 /* Pods-YoCommon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YoCommon_Tests-dummy.m"; sourceTree = "<group>"; };
-		DD8CC4A20460921D7A6E3B06F8731121 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DE435C108D0D85BAD84E6C9E754C43D4 /* Pods-YoCommon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YoCommon_Tests.modulemap"; sourceTree = "<group>"; };
 		E1FBBEBAE9F949640835192206FDED7A /* Pods-YoCommon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YoCommon_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E382B74B864B4117F95F5556FAB3EC9E /* Pods-YoCommon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YoCommon_Example-umbrella.h"; sourceTree = "<group>"; };
-		FE5C5F5409E7AE4C90D2A5577E55DFE2 /* YoCommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YoCommon-Info.plist"; sourceTree = "<group>"; };
 		FF491A174871F44D165C0C5449B39144 /* Pods-YoCommon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YoCommon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,17 +91,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C29CFCAA230B9289BF46315EC943E64D /* Frameworks */ = {
+		BD1D5ECDAB4FA09FDE678FC8E71E5612 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CAFEA9C3A9A1DABA18A97500AC281E /* Foundation.framework in Frameworks */,
+				087E1E5C92D405689B477540CBF9B47D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0742558A2F9EFDD3F94B4BCC9DDC8F19 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				25D6786B1255B217A599C3D278C817CD /* YoDefine.swift */,
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		10926CD1A503D198FB0605C966AED682 /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				7FB37DB48B798FE00DF0FEF4999C195E /* YoConfigure.swift */,
+			);
+			name = Configure;
+			sourceTree = "<group>";
+		};
 		1BA19866CB98241E336ED691910FA314 /* Pods-YoCommon_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,14 +135,6 @@
 			path = "Target Support Files/Pods-YoCommon_Example";
 			sourceTree = "<group>";
 		};
-		23616CB4229CAAD24D7EEE61892184B7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				96DA7F193C1D87386B0360A3D82F2525 /* YoCommon */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		2E0310171ECC15840F7A3776D881E470 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,14 +144,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		45AB4D4A9F6B4F59CFB7D73C9B0195F2 /* Pod */ = {
+		399399B2F32F5CDF835C26ED8753C1D8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A47BD62543AF617B33D3B96BACC30614 /* LICENSE */,
-				DD8CC4A20460921D7A6E3B06F8731121 /* README.md */,
-				8E0F33549D8BA0AADA1E47B0EB9F64C0 /* YoCommon.podspec */,
+				59EC5555DAC6649EDA339FAA5B8C8459 /* YoCommon */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -152,12 +160,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		96DA7F193C1D87386B0360A3D82F2525 /* YoCommon */ = {
+		59EC5555DAC6649EDA339FAA5B8C8459 /* YoCommon */ = {
 			isa = PBXGroup;
 			children = (
-				007759F37BFAE737E386A57DCA54F010 /* ReplaceMe.swift */,
-				45AB4D4A9F6B4F59CFB7D73C9B0195F2 /* Pod */,
-				BE8C95FFB5BD80C47118A085280901FF /* Support Files */,
+				10926CD1A503D198FB0605C966AED682 /* Configure */,
+				0742558A2F9EFDD3F94B4BCC9DDC8F19 /* Define */,
+				DB2F26B6BB40242CC53F38B3DFA342E4 /* Pod */,
+				AF77774914CBD04759AECBE664FFCA17 /* Support Files */,
 			);
 			name = YoCommon;
 			path = ../..;
@@ -179,16 +188,16 @@
 			path = "Target Support Files/Pods-YoCommon_Tests";
 			sourceTree = "<group>";
 		};
-		BE8C95FFB5BD80C47118A085280901FF /* Support Files */ = {
+		AF77774914CBD04759AECBE664FFCA17 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBD006491D3193A60B011188496319E4 /* YoCommon.modulemap */,
-				7E771D20990186EA5F429DEFEDA74627 /* YoCommon-dummy.m */,
-				FE5C5F5409E7AE4C90D2A5577E55DFE2 /* YoCommon-Info.plist */,
-				7D1CE3633582E1B9BF01F3B151D9CF13 /* YoCommon-prefix.pch */,
-				5CE592D320451FE94EDE25CFE976BC95 /* YoCommon-umbrella.h */,
-				9ADEA82ED282E627E358B2E9043E03FA /* YoCommon.debug.xcconfig */,
-				23B1954ACE811F3255878C6349EC7A25 /* YoCommon.release.xcconfig */,
+				3F7907370084FC6BCCEA869AAD23EAE1 /* YoCommon.modulemap */,
+				08281E2B9FBBAB30DA7CAD22C0078B39 /* YoCommon-dummy.m */,
+				6E4C2AA94121F883D149472148C18268 /* YoCommon-Info.plist */,
+				7095E42EFEC721FEE1744DAF7B1207C9 /* YoCommon-prefix.pch */,
+				813B5CC948FAA182A170BC2645EC4942 /* YoCommon-umbrella.h */,
+				5BB7C60E4F6B6DC2BBF41B92C933A418 /* YoCommon.debug.xcconfig */,
+				D7BF8B674A238AD9F4881A6D10A4FE06 /* YoCommon.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YoCommon";
@@ -208,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				23616CB4229CAAD24D7EEE61892184B7 /* Development Pods */,
+				399399B2F32F5CDF835C26ED8753C1D8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C7D6EC9C45BEC70F8586E8A9584D12F2 /* Products */,
 				2E0310171ECC15840F7A3776D881E470 /* Targets Support Files */,
@@ -221,6 +230,16 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB2F26B6BB40242CC53F38B3DFA342E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9A14AD535DB59AB1F5C3CF455EE549D3 /* LICENSE */,
+				37C95926001E9A4199C8F006AECC0067 /* README.md */,
+				247347BC7B72BF19B63B3D7FDA2687E3 /* YoCommon.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,11 +261,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D40BF010DE7E32C638D2E037DD8C3998 /* Headers */ = {
+		4F74BF92F3D946B2D1941D385DCFC8FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB575263AED9AEC86BE480268C45280 /* YoCommon-umbrella.h in Headers */,
+				8DD6CDE0597BD5E418638E670C4205C1 /* YoCommon-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +284,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6991217577B4D98406D5A1153CF8AD55 /* PBXTargetDependency */,
+				E7290A479278936C61B0278B401E3FF4 /* PBXTargetDependency */,
 			);
 			name = "Pods-YoCommon_Example";
 			productName = Pods_YoCommon_Example;
@@ -274,12 +293,12 @@
 		};
 		C94B5A4717E6AF5D5422FD958EFD18D3 /* YoCommon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5AE72D1AE3D73C1F4F94F64A220E487 /* Build configuration list for PBXNativeTarget "YoCommon" */;
+			buildConfigurationList = 2C8E35881033F4E318D89EF5FBE84BCF /* Build configuration list for PBXNativeTarget "YoCommon" */;
 			buildPhases = (
-				D40BF010DE7E32C638D2E037DD8C3998 /* Headers */,
-				DC7AAE023B4A0D2D70F1D8CF4C4189F2 /* Sources */,
-				C29CFCAA230B9289BF46315EC943E64D /* Frameworks */,
-				4C4A7DEF08607C08C6F4B8480120D084 /* Resources */,
+				4F74BF92F3D946B2D1941D385DCFC8FA /* Headers */,
+				60C1C31DFE94F5094B7F8CB6FC67B8D7 /* Sources */,
+				BD1D5ECDAB4FA09FDE678FC8E71E5612 /* Frameworks */,
+				765097EC77516F8A0CDEC5C361A3AC57 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +321,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				17D7E9359A3396153962FD89D1B9F45A /* PBXTargetDependency */,
+				937CA6C7210C0580C44597B9BDEB9089 /* PBXTargetDependency */,
 			);
 			name = "Pods-YoCommon_Tests";
 			productName = Pods_YoCommon_Tests;
@@ -339,14 +358,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4C4A7DEF08607C08C6F4B8480120D084 /* Resources */ = {
+		55E16CF43CB683BBF34911EFC0472FC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55E16CF43CB683BBF34911EFC0472FC7 /* Resources */ = {
+		765097EC77516F8A0CDEC5C361A3AC57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,6 +390,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60C1C31DFE94F5094B7F8CB6FC67B8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709A768DF2B1AC7C591C5ABC5187736C /* YoCommon-dummy.m in Sources */,
+				20D272DDE02E8CE25D812C9F4A58282A /* YoConfigure.swift in Sources */,
+				3B69087F3D110060B1A997EF0B94FA4F /* YoDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF8E11DF07B7B4269071FB81213A7B92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,33 +408,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC7AAE023B4A0D2D70F1D8CF4C4189F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D39F0961F362EAA133DED675C1BA52EA /* ReplaceMe.swift in Sources */,
-				E2591B608A6D1A551243CDFAF30F8DCF /* YoCommon-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17D7E9359A3396153962FD89D1B9F45A /* PBXTargetDependency */ = {
+		937CA6C7210C0580C44597B9BDEB9089 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YoCommon_Example";
 			target = C7A48CBC4FB37A6EF8E3CBCDF0E8F3F4 /* Pods-YoCommon_Example */;
-			targetProxy = AE4EFBA5B3935C21639C2EFC90ED98EE /* PBXContainerItemProxy */;
+			targetProxy = F76CFEEA0A37913B586EB1D8C43C5302 /* PBXContainerItemProxy */;
 		};
-		6991217577B4D98406D5A1153CF8AD55 /* PBXTargetDependency */ = {
+		E7290A479278936C61B0278B401E3FF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YoCommon;
 			target = C94B5A4717E6AF5D5422FD958EFD18D3 /* YoCommon */;
-			targetProxy = 7D4777B8FED179A750507D9797926751 /* PBXContainerItemProxy */;
+			targetProxy = 0C9E0D6A83E80F2585687714BEC0E4B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		118A3E2EA2F704CDDFC4B7503CF63723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB7C60E4F6B6DC2BBF41B92C933A418 /* YoCommon.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YoCommon/YoCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YoCommon/YoCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YoCommon/YoCommon.modulemap";
+				PRODUCT_MODULE_NAME = YoCommon;
+				PRODUCT_NAME = YoCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		16D633393B442B909B4D1337D0554051 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4923A2712988FAF85EAE8167E8F8DA87 /* Pods-YoCommon_Example.release.xcconfig */;
@@ -505,6 +555,37 @@
 			};
 			name = Debug;
 		};
+		5F5796C9C8305D7E7479A33893E7D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7BF8B674A238AD9F4881A6D10A4FE06 /* YoCommon.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YoCommon/YoCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YoCommon/YoCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YoCommon/YoCommon.modulemap";
+				PRODUCT_MODULE_NAME = YoCommon;
+				PRODUCT_NAME = YoCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		716C8BA778530D07E7D23613177DC547 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E0222D08F396C774363734E049FFF10 /* Pods-YoCommon_Tests.debug.xcconfig */;
@@ -536,37 +617,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		72249C393C9A55746DCCEC8F174173A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23B1954ACE811F3255878C6349EC7A25 /* YoCommon.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YoCommon/YoCommon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YoCommon/YoCommon-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YoCommon/YoCommon.modulemap";
-				PRODUCT_MODULE_NAME = YoCommon;
-				PRODUCT_NAME = YoCommon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8ABB42A52966A962765CEC9AF40589A5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -695,39 +745,18 @@
 			};
 			name = Release;
 		};
-		D8A66839E6B7AD2260A98E115C8BEAC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9ADEA82ED282E627E358B2E9043E03FA /* YoCommon.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YoCommon/YoCommon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YoCommon/YoCommon-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YoCommon/YoCommon.modulemap";
-				PRODUCT_MODULE_NAME = YoCommon;
-				PRODUCT_NAME = YoCommon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C8E35881033F4E318D89EF5FBE84BCF /* Build configuration list for PBXNativeTarget "YoCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118A3E2EA2F704CDDFC4B7503CF63723 /* Debug */,
+				5F5796C9C8305D7E7479A33893E7D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -751,15 +780,6 @@
 			buildConfigurations = (
 				716C8BA778530D07E7D23613177DC547 /* Debug */,
 				8ABB42A52966A962765CEC9AF40589A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5AE72D1AE3D73C1F4F94F64A220E487 /* Build configuration list for PBXNativeTarget "YoCommon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8A66839E6B7AD2260A98E115C8BEAC3 /* Debug */,
-				72249C393C9A55746DCCEC8F174173A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

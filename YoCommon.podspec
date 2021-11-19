@@ -26,13 +26,13 @@ s.source           = { :git => 'https://github.com/YoSwiftKing/YoCommon.git', :t
 s.ios.deployment_target = '9.0'
 
 # 子模块引用 https://www.jianshu.com/p/951952f3be7a
-#  Define
+#  Define  宏定义
 s.subspec 'Define'  do |ss|
 ss.source_files = 'YoCommon/Classes/Define/**/*'
 #ss.dependency 'YoCommon/Define'
 end
 
-# Configure
+# Configure  基础配置
 s.subspec 'Configure'  do |ss|
 ss.source_files = 'YoCommon/Classes/Configure/**/*'
 #ss.dependency 'YoCommon/Configure'
@@ -49,8 +49,6 @@ end
 # s.resource_bundles = {
  # 'YoUIKit' => ['YoUIKit/Assets/YoProgressHUD/*.png']
 # }
-
-
 
 # s.source_files  = "YoUIKit", "YoUIKit/**/*.{h,m}"
 # s.resource_bundles = {

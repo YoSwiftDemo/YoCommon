@@ -1,5 +1,9 @@
 PODS:
-  - YoCommon (0.1.0)
+  - YoCommon (0.0.1):
+    - YoCommon/Configure (= 0.0.1)
+    - YoCommon/Define (= 0.0.1)
+  - YoCommon/Configure (0.0.1)
+  - YoCommon/Define (0.0.1)
 
 DEPENDENCIES:
   - YoCommon (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YoCommon: 9229becf4e24ce323b6b8e590461e1850915339d
+  YoCommon: 2869dc03e21383944fea55e4d4c39c12ce673a86
 
 PODFILE CHECKSUM: 892f7d1b692b5591056cc776d3746eb3329e6dc6
 
