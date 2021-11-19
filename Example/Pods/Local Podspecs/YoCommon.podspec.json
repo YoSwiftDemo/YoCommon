@@ -1,6 +1,6 @@
 {
   "name": "YoCommon",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "summary": "YoCommon | swift",
   "description": "YoCommon框架 基础公有类封装",
   "homepage": "https://github.com/YoSwiftKing",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/YoSwiftKing/YoCommon.git",
-    "tag": "0.0.1"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"

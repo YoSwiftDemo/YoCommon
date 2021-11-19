@@ -13,20 +13,20 @@ import UIKit
 
 // MARK: - 常用宽高
 /// 屏幕Bounds
-let kScreenBounds = UIScreen.main.bounds;
+public let kScreenBounds = UIScreen.main.bounds;
 /// 屏幕高度
-let kScreenHeight = UIScreen.main.bounds.size.height;
+public let kScreenHeight = UIScreen.main.bounds.size.height;
 /// 屏幕宽度
-let kScreenWidth = UIScreen.main.bounds.size.width;
+public let kScreenWidth = UIScreen.main.bounds.size.width;
 /// 导航栏高度
-let kNavBarHeight = 44.0;
+public let kNavBarHeight = 44.0;
 /// 状态栏高度
-let kStatusBarHeight = 20.0;
+public let kStatusBarHeight = 20.0;
 /// Tab栏高度
-let kTabBarHeight = 49.0;
+public let kTabBarHeight = 49.0;
 
 /* 判断是否是带刘海 */
-func kIsIphoneX() -> Bool {
+public func kIsIphoneX() -> Bool {
    if #available(iOS 11.0, *) {
        let window = UIApplication.shared.delegate?.window
        guard (window != nil) else { return false }
@@ -40,7 +40,7 @@ func kIsIphoneX() -> Bool {
 
 // 是否是iPad
 //public let GK_IS_IPAD: Bool = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.pad)
-public let kIsIpad: Bool = (UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad)
+public  let kIsIpad: Bool = (UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad)
 
 //MARK:- 常用字体宏定义
 
@@ -48,7 +48,7 @@ public let kIsIpad: Bool = (UIDevice.current.userInterfaceIdiom == UIUserInterfa
  字体
 */
 //字体-系统-普通
-func YoSystemFont(_ size: CGFloat) -> UIFont {
+public func YoSystemFont(_ size: CGFloat) -> UIFont {
    return UIFont.systemFont(ofSize: size)
 }
 //字体-系统-加粗
@@ -79,7 +79,7 @@ func YoSystemFont(_ size: CGFloat) -> UIFont {
  
  - parameter message: 日志消息内容
  */
-func printLog<T>(message: T){
+public func printLog<T>(message: T){
     #if DEBUG
         print(" \(message)");
     #endif

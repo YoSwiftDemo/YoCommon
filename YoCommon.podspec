@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 # 项目名
 s.name             = 'YoCommon'
 # 版本号
-s.version          = '0.1.0'
+s.version          = '0.1.1'
 # 简单描述
 s.summary          = 'YoCommon | swift'
 # 详细描述
